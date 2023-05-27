@@ -1,0 +1,13 @@
+digraph {
+	S [label=S]
+	NP [label=NP]
+	VP [label=VP]
+	Noun [label=Noun]
+	Verb [label=Verb]
+	Article [label=Article]
+	S -> NP
+	S -> VP
+	NP -> Article
+	NP -> Noun
+	VP -> Verb
+}
